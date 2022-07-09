@@ -1,0 +1,42 @@
+.main_content{
+    margin-top: 100px;
+}
+
+.main_content img{
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.content_div{
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 12px -2px rgba(62, 182, 14,0.75);
+    -webkit-box-shadow: 0px 0px 12px -2px rgba(62, 182, 14,0.75);
+    -moz-box-shadow: 0px 0px 12px -2px rgba(62, 182, 14,0.75);
+    border: 4px solid rgb(62, 182, 14, 0.5);
+    border-top-left-radius: 100px;
+}
+
+.text_div_left{
+    transition: 0.5s;
+    width: 30%;
+    overflow: hidden;
+    padding: 30px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.text_div_left:hover{
+    transition: 0.5s;
+    width: 120%;
+}
+
+.text_div_right{
+    transition: 0.5s;
+    width: 70%;
+    overflow: hidden;
+}

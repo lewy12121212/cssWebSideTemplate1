@@ -1,0 +1,27 @@
+.main_content{
+    margin-top: 45px;
+}
+
+.main_content img{
+    width: 200px;
+    height: 200px;
+    overflow: hidden; 
+    border-radius: 100px;
+    object-fit: cover;
+    margin: auto;
+}
+
+.person_div{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.person_description{
+    width: 70%;
+    margin: 10px;
+}
+
+
+
+
